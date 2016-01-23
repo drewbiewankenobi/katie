@@ -1,0 +1,42 @@
+body {
+	background-color: rgb(0,0,0);
+	background: -webkit-linear-gradient(left top, rgba(75,0,130, .7), rgba(148,0,121, .4));
+	height: 100vh;
+}
+
+a {
+	text-decoration: none;
+	color:white;
+	background-color: red;
+	text-align: center;
+	padding: 10px;
+	border-right: solid 1px white;
+	border-radius-top-right: 5px;
+	border-top: solid 1px red;
+	opacity: .8;
+}
+a:last-child {
+	border-right:hidden;
+}
+
+nav {
+	text-align: center;
+}
+h1 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+@media screen and (max-width: 360px) {
+	a {
+		display: block;
+		border-bottom: solid 1px white;
+		opacity: .8
+	}
+	a:last-child {
+		border-bottom: hidden;
+	}
+}
